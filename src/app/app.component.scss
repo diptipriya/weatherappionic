@@ -1,0 +1,18 @@
+
+
+//@warn$toolbar-md-background:color($color,secondary);
+//$tabs-md-background:color($color,secondary);
+//color: rgba(var(--ion-text-color-rgb), 0.25);
+
+ion-toolbar{
+background:var(--ion-color-secondary);
+}
+
+ion-tab-bar{
+    --background:#435d8c;
+    --color:#fff;
+}
+
+ion-title{
+    background:var(--ion-color-primary);
+}
