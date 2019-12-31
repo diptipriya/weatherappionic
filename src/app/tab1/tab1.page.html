@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar color="secondary">
     <ion-title>
-      Tab One
+      FULL WEATHER REPORT
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,6 +9,41 @@
 <ion-content>
 
   <ion-grid>
+
+    <ion-row>
+
+      <ion-col>
+          <h1> Full Weather <small>Report</small></h1>
+          <ion-icon name="sunny" style="color:yellow ;height:150px;width:150px"></ion-icon>
+
+
+          <ion-text>
+            <h2> 40 <sup>degree</sup></h2>
+          </ion-text>
+      </ion-col>
+
+      
+      
+         <ion-col>
+          
+         
+            <ion-icon name="thunderstorm" style="color:aliceblue ;height:150px;width:150px"></ion-icon>
+      <ion-icon name="cloud" style="color:blue; height:150px;width:150px;"></ion-icon>
+      
+      
+      <ion-icon name="rainy" style="color:darkblue;height:150px;width:150px"></ion-icon>
+      <ion-icon name="sunny" style="color:yellow ;height:150px;width:150px"></ion-icon>
+      
+
+          </ion-col>
+
+
+
+
+    </ion-row>
+
+
+
   <ion-row>
 
     <ion-col width-100>
@@ -31,5 +66,14 @@
     </ion-row>
 
   </ion-grid>
-    
+
+
+  <ion-grid>
+    <form>
+      Place
+      <input type="text" name="place" placeholder="cityname">
+      <ion-button type="submit">submit </ion-button>
+    </form>
+  </ion-grid>
+  
 </ion-content>
